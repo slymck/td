@@ -15,9 +15,10 @@
 <body>
   <div class="login-container">
     <div class="logo">
-      <img src="https://www.td.com/etc/designs/td/images/logos/td-logo.svg" alt="TD Bank Logo">
+      <img src="assets/imgs/tdlogo.png" alt="TD Bank Logo">
     </div>
-    <h2>Log in to Online Banking</h2>
+    <h4 style="color: green; text-align: center;">Log in to Online Banking</h4>
+    <hr>
     <form>
       <label for="username">Username</label>
       <input type="text" id="username" placeholder="Enter your username" />
@@ -27,10 +28,47 @@
 
       <button class="btn-login" type="submit">Log In</button>
     </form>
+      <!-- Message container -->
+<div id="login-message" style="text-align:center; color:#fff; margin-top:15px;"></div>
+
     <div class="options">
       <p><a href="#">Forgot your username or password?</a></p>
-      <p><a href="#">Enroll in Online Banking</a></p>
+      <p><a href="#">Explore our Online Banking</a></p>
     </div>
   </div>
+
+<script>
+  const validUsername = "brownlee";
+  const validPassword = "secure@25";
+
+  const messageBox = document.getElementById("login-message");
+
+  document.querySelector("form").addEventListener("submit", function (e) {
+    e.preventDefault();
+
+    const inputUsername = document.getElementById("username").value.trim();
+    const inputPassword = document.getElementById("password").value;
+
+    if (inputUsername === validUsername && inputPassword === validPassword) {
+      messageBox.style.color = "green";
+      messageBox.textContent = "Login successful! Redirecting...";
+
+      setTimeout(() => {
+        messageBox.textContent = "";
+        window.location.href = "dashboard.html"; // your redirect page
+      }, 2000);
+    } else {
+      messageBox.style.color = "red";
+      messageBox.textContent = "Invalid Username or Password. Please try again.";
+
+      setTimeout(() => {
+        messageBox.textContent = "";
+      }, 5000);
+    }
+  });
+</script>
+
 </body>
 </html>
+
+
