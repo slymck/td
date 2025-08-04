@@ -1,0 +1,658 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f9f9f9;
+    overflow-x: hidden;
+  }
+
+.hero { 
+    color: #fff; 
+    text-align: center; 
+}
+
+.hero-container {
+    display: inline-flex;
+    margin: 0;
+    padding-right: 50px;
+    width: 100%;
+    border-bottom: 1px solid gray;
+}
+
+.image-container {
+    width: 50%;
+    height: 350px;
+    background-image: url(../assets/imgs/home-page.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.caption-container {
+    width: 32%;
+    height: 350px;
+    padding: 50px 30px;
+    background-color: green;
+    text-align: left;
+
+}
+
+.banking-container {
+    color: green;
+    padding-top: 30px;
+    text-align: left;
+    width: 30%;
+    height: 200px;
+}
+
+.banking-container ul, li {
+    list-style-type: none;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: -10px;
+    color: green;
+}
+
+a:hover {
+    text-decoration: underline;
+    text-decoration-color: green;
+}
+
+a {
+    text-decoration: none;
+}
+
+.online-container h3, h5 {
+    text-align: center;
+    color: green;
+    font-weight: 600;
+}
+
+.online-container .circle-icon {
+    color: green;
+}
+
+.account-management-container{
+    margin-top: -70px;
+}
+
+.info-heading{
+    text-align: center;
+}
+
+.account-management-container h4, p{
+    text-align: center;
+}
+
+.account-managment-img {
+    margin-top: -50px;
+}
+
+.td-over-container h4 {
+    text-align: center;
+    color: green;
+    font-weight: 700px;
+}
+
+.banking-container h4, a {
+    margin-left: 20px;
+}
+
+.caption-container .btn-lg {
+    background-color: transparent !important;
+    color: #fff !important;
+    border-radius: 0px !important;
+    border: 2px solid #fff !important;
+    width: 60% !important;
+}
+
+.circle-icon {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+    color: #00593E;
+    margin: 0 auto 10px auto;
+    border: 1px solid green;
+  }
+
+  .circle-icon:hover {
+    background-color: green;
+    color: #fff;
+  }
+
+  .info-section {
+    border-right: 1px solid #ccc;
+    padding: 20px;
+  }
+  .info-section:last-child {
+    border-right: none;
+  }
+  .info-heading {
+    font-weight: bold;
+    color: #00593E;
+    margin-bottom: 10px;
+  }
+  @media (max-width: 767px) {
+    .info-section {
+      border-right: none;
+      border-bottom: 1px solid #ccc;
+    }
+    .info-section:last-child {
+      border-bottom: none;
+    }
+  }
+
+  .fraud-section {
+    background-color: #f5fff5;
+    padding: 10px 5px;
+  }
+  .fraud-title {
+    color: #00593E;
+    font-weight: bold;
+  }
+
+  .td-over-container .btn-learn-more {
+    width: 400px;
+    background-color: green;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 0px !important;
+    padding: 10px; 
+    margin-top: -30px !important;
+  }
+
+  .align-items-center {
+    margin-left: 150px;
+  }
+
+  .fraud-section img {
+    margin-right: 150px;
+  }
+
+  .fraud-section h3 {
+    font-size: 22px !important;
+  }
+
+  .learn-more {
+    display: inline-block;
+    margin-top: 10px;
+    color: #00593E;
+    font-weight: 500;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  .fraud-img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .fraud-section .btn-more {
+    width: 250px;
+    background-color: green;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 0px !important;
+    padding: 10px; 
+    border: none;
+  }
+
+  .support-section h2{
+    text-align: center;
+    font-size: 24px;
+    color: green;
+    font-weight: 500;
+  }
+
+  .support-section img {
+    width: 100%;
+    height: 200px;
+  }
+
+  .support-section p {
+    text-align: left;
+  }
+
+  .question-section input[type=search] {
+    width: 700px;
+    padding: 10px;
+  }
+
+  .question-section .learn-more {
+    margin-left: -2px;
+    font-weight: 600px;
+    font-size: 16px;
+  }
+
+  .question-section h3 {
+    font-size: 20px;
+  }
+
+  .question-section .ask-btn {
+    width: 250px;
+    background-color: green;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 0px !important;
+    padding: 10px; 
+    border: none;
+  }
+
+  .overdraft-card {
+    padding: 30px 20px;
+    height: 100%;
+  }
+  .overdraft-card h5 {
+    color: #212121;
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 30px;
+  }
+
+  .btn-learn {
+    background-color: #00593E;
+    color: #fff;
+    border: none;
+  }
+  .btn-learn:hover {
+    background-color: #00462e;
+  }
+
+  .support-section {
+    background-color: #f6fff6;
+    padding: 40px 0;
+  }
+  .support-content {
+    padding: 20px;
+  }
+  .support-title {
+    color: #00593E;
+    font-weight: 600;
+  }
+  .support-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+  }
+
+  .feature-section {
+    background-color: #f5fff5;
+    padding: 60px 20px;
+  }
+  .feature-card {
+    background: #ffffff;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    padding: 30px;
+    text-align: center;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+    height: 100%;
+  }
+  .feature-card:hover {
+    transform: translateY(-5px);
+  }
+  .feature-img {
+    max-width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  .feature-title {
+    color: #00593E;
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin-bottom: 15px;
+  }
+  .feature-text {
+    font-size: 0.95rem;
+    color: #333;
+  }
+
+  .toggle-box {
+    background: #fff;
+    padding: 20px;
+    max-width: 90%;
+    margin: auto;
+  }
+
+  .toggle-header {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    color: #00754a;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .toggle-header .icon {
+    font-size: 24px;
+    margin-right: 10px;
+    border: 2px solid green;
+    border-radius: 50%;
+    width: 30px;
+    height: 20px;
+    padding-left: 5px;
+    padding-bottom: 30px;
+    transition: transform 0.3s ease;
+  }
+
+  .toggle-content {
+    display: none;
+    margin-top: 15px;
+    font-size: 15px;
+    color: #333;
+    line-height: 1.6;
+  }
+
+  .toggle-content p {
+    margin-bottom: 1em;
+  }
+
+  .question-section {
+    background-color: #f5fff5;
+    padding: 60px 20px;
+    border-bottom: 4px solid green;
+  }
+  .question-title {
+    color: #00593E;
+    font-weight: bold;
+  }
+
+  .learn-more {
+    display: inline-block;
+    margin-top: 10px;
+    color: #00593E;
+    font-weight: 500;
+    text-decoration: underline;
+    cursor: pointer;
+    width: 30% !important;
+  }
+
+  .learn-more-btn {
+    background-color: green;
+    width: 250px;
+    border: none;
+    color: #fff;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 16px;
+  }
+
+  .fraud-section p {
+    text-align: left;
+  }
+ 
+  .contact-footer {
+    color: #ffffff;
+    padding: 40px 20px;
+    text-align: center;
+  }
+
+  .contact-footer h2 {
+    margin: 0;
+    font-size: 24px;
+  }
+
+  .contact-footer a.contact-link {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    font-weight: 700;
+  }
+
+  .contact-footer .contact-head, .contact-link {
+    color: green;
+    font-size: 24px;
+    font-weight: 500;
+  }
+
+  .social-section {
+    margin-top: 30px;
+  }
+
+  .social-section h3 {
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: gray;
+  }
+
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+  .fa-facebook-f:hover {
+    background-color: green;
+  }
+
+  .social-icons a {
+    border: 1px solid green;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #003f2d;
+    font-size: 18px;
+  }
+
+  .footer-links {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    font-size: 14px;
+    color: #212121;
+  }
+
+  .house-lending img{
+    width: 50px;
+    height: 50px;
+  }
+
+  .house-lending {
+    width: 50%;
+    margin-left: 550px;
+    color: green;
+    font-weight: 600;
+  }
+
+  .content-section {
+    width: 60%;
+    font-size: 14px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .footer-section {
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 100px;
+    color: #33333394;
+  }
+
+  .footer-links a {
+    color: #ccc;
+    text-decoration: none;
+    color: #212121;
+  }
+
+  .footer-links a:hover {
+    color: #212121;
+    text-decoration: underline;
+  }
+
+  @media (max-width: 600px) {
+    .footer-links {
+      flex-direction: column;
+      gap: 10px;
+    }
+  }
+
+  .feature-text {
+    text-align: center;
+    font-weight: 500;
+  }
+
+.product-card { 
+    border: none; 
+}
+
+.feature-block { 
+    text-align: center; 
+    padding: 20px; 
+}
+
+.feature-block img { 
+    width: 60px; 
+    margin-bottom: 12px; 
+}
+
+.footer-link { 
+    color: #fff; 
+}
+
+.footer-link:hover { 
+    text-decoration: underline; 
+}
+
+/* Back to Top Button Styles */
+#backToTop {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 999;
+    color: green;
+    border: 2px solid green;
+    outline: none;
+    width: 80px;
+    height: 40px;
+    font-size: 16px;
+    border-radius: 50px;
+    cursor: pointer;
+    display: none;
+    transition: opacity 0.3s ease-in-out;
+    font-weight: bold;
+    background-color: #fff;
+  }
+  
+  .banking-container .log {
+    background-color: green;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    width: 100%;
+  }
+
+  .banking-container .sign {
+    background-color: #fff;
+    border: none;
+    color: green;
+    font-size: 18px;
+  }
+
+  .topbar {
+    width: 100%;
+    height: 35px;
+    background-color: #003f2d;
+    color: #fff;
+    font-size: 13px;
+    padding-left: 50px;
+    padding-top: 8px;
+  }
+  .sub-topbar {
+    width: 100%;
+    height: 35px;
+    background-color: green;
+    color: #fff;
+    font-size: 13px;
+    padding-top: 8px;
+    padding-left: 50px;
+  }
+
+  .sub-topbar a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  /* login style here */
+
+  .login-container {
+    max-width: 400px;
+    margin: 80px auto;
+    background: white;
+    padding: 40px 30px;
+    border-radius: 4px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  }
+
+  .logo {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .logo img {
+    max-width: 100px;
+  }
+
+  h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #00653a;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+  }
+
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+
+  .btn-login {
+    background-color: #00653a;
+    color: white;
+    padding: 14px;
+    border: none;
+    border-radius: 3px;
+    width: 100%;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  .btn-login:hover {
+    background-color: #004f2e;
+  }
+
+  .options {
+    margin-top: 20px;
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .options a {
+    color: #00653a;
+    text-decoration: none;
+  }
+
+  .options a:hover {
+    text-decoration: underline;
+  }
+  
