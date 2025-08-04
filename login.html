@@ -13,29 +13,66 @@
   <link rel="shortcut icon" href="assets/imgs/td-logo.png" type="image/x-icon">
 </head>
 <body>
-  <div class="login-container">
-    <div class="logo">
-      <img src="assets/imgs/tdlogo.png" alt="TD Bank Logo">
+      <!-- Navigation -->
+  <div class="topbar">
+    <img src="assets/imgs/fdic-logo-white-en.png" alt=""> <span>FDIC-Insured – Backed by the full faith and credit of the U.S. Government</span>
+ </div>
+ <div class="sub-topbar">
+   <span><b>Personal</b>  <a href="#">Small Business</a> <a href="#">Commercial</a> <a href="#">Investing & Wealth</a> <a href="#">About Us</a></span>
+ </div>
+
+ <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+   <div class="container">
+     <a href="index.html"><img src="assets/imgs/tdlogo.png" alt="" width="300px" height="50px"></a>
+     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+       <span class="navbar-toggler-icon"></span>
+     </button>
+     <div class="collapse navbar-collapse" id="navMenu">
+       <ul class="navbar-nav ms-auto">
+         <li class="nav-item"><a class="nav-link" href="#">Products</a></li>
+         <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
+         <li class="nav-item"><a class="nav-link" href="#">Learning</a></li>
+       </ul>
+     </div>
+   </div>
+ </nav>
+  <section class="login-container-section">
+    <div class="login-overall-container">
+        <div class="login-container">
+            <h4 style="color: green; text-align: center;">Welcome to Online Banking</h4>
+            <form>
+              <input type="text" id="username" placeholder="User name"/>
+        
+              <input type="password" id="password" placeholder="Password" />
+              <input type="checkbox" name="rememberme" id=""> Remember me
+                <br><br>
+              <center>
+                <button class="btn-login" type="submit">Log in</button>
+              </center>
+            </form>
+              <!-- Message container -->
+        <div id="login-message" style="text-align:center; color:#fff; margin-top:15px;"></div>
+        
+            <div class="options">
+              <p><a href="#">Forgot user name and/or password? ></a></p>
+            </div>
+          </div>
+          <div class="login-content">
+            <ul>
+                <li>Sign up for Online Banking</li>
+                <br>
+                <li>View the Online Banking demo</li>
+                <br>
+                <li>Learn more about TD mobile banking</li>
+                <br><hr>
+                <li>Find out more about TD Bank's online security</li>
+                <br>
+                <li class="li-u">and our commitment to provide you with a safe</li>
+                <li class="li-u">and secure online and mobile banking experience</li>
+              </ul>              
+          </div>
     </div>
-    <h4 style="color: green; text-align: center;">Log in to Online Banking</h4>
-    <hr>
-    <form>
-      <label for="username">Username</label>
-      <input type="text" id="username" placeholder="Enter your username" />
-
-      <label for="password">Password</label>
-      <input type="password" id="password" placeholder="Enter your password" />
-
-      <button class="btn-login" type="submit">Log In</button>
-    </form>
-      <!-- Message container -->
-<div id="login-message" style="text-align:center; color:#fff; margin-top:15px;"></div>
-
-    <div class="options">
-      <p><a href="#">Forgot your username or password?</a></p>
-      <p><a href="#">Explore our Online Banking</a></p>
-    </div>
-  </div>
+  </section>
 
 <script>
   const validUsername = "brownlee";
