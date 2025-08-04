@@ -655,4 +655,47 @@ a {
   .options a:hover {
     text-decoration: underline;
   }
+
+  .navbar {
+    background-color: #fff !important; /* Custom dark green */
+    padding: 1rem 2rem;
+  }
+  
+  .navbar .nav-link {
+    color: green !important;
+  }
+  
+  #navMenu {
+    margin-right: 500px !important;
+    gap: 50px !important;
+  }
+
+.header-logo {
+    padding: 10px;
+    background-color: #cdcdcd;
+}
+
+.dashboard-header {
+    background-color: #006644;
+    color: #fff;
+    padding: 20px;
+  }
+
+  .dashboard-header h2 {
+    margin: 0;
+  }
+
+  .card {
+    margin-bottom: 20px;
+  }
+
+  .btn-deposit {
+    background-color: #006644;
+    color: #fff;
+  }
+
+  .btn-deposit:hover {
+    background-color: #004d33;
+  }
+
   
