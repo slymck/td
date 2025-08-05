@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style-responsive.css">
   <link rel="stylesheet" href="css/all.min.css"/>
   <link rel="shortcut icon" href="assets/imgs/td-logo.png" type="image/x-icon">
 </head>
@@ -34,10 +35,10 @@
         <div class="card shadow">
           <div class="card-header bg-success text-white">Account Summary</div>
           <div class="card-body">
-            <p><strong>Account Holder:</strong> Brown Lee Allen</p>
-            <p><strong>Account Number:</strong> 100162094473</p>
-            <p><strong>Account Type:</strong> Checking</p>
-            <p><strong>Balance:</strong> $11,100,000.00</p>
+            <p style="text-align: left;"><strong>Account Holder:</strong> Brown Lee Allen</p>
+            <p style="text-align: left;"><strong>Account Number:</strong> 100162094473</p>
+            <p style="text-align: left;"><strong>Account Type:</strong> Checking</p>
+            <p style="text-align: left;"><strong>Balance:</strong> $11,100,000.00</p>
           </div>
         </div>
       </div>
@@ -77,15 +78,24 @@
         <div class="card shadow">
           <div class="card-header bg-success text-white">Funds Received Summary</div>
           <div class="card-body">
-            <p><strong>Received From:</strong> William Thompson</p>
-            <p><strong>Amount Received:</strong> $3,800,000.00</p>
+            <p style="text-align: left;"><strong>Received From:</strong> William Thompson</p>
+            <p style="text-align: left;"><strong>Amount Received:</strong> $3,800,000.00</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card shadow">
+          <div class="card-header bg-success text-white">Funds Withdrawal</div>
+          <div class="card-body">
+            <p style="text-align: left;"><strong>Balance:</strong> $11,100,000.00</p>
+            <a href="withdrawl.html"><button class="funds-withdrawal">Withdraw Funds</button></a>
           </div>
         </div>
       </div>
     </div>
   </div>
 
-  <!-- Add this script just before </body> -->
+  <!-- Add this script just before -->
   <script>
     function showPendingMessage() {
       const message = document.getElementById("depositMessage");

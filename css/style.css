@@ -18,6 +18,11 @@ body {
     border-bottom: 1px solid gray;
 }
 
+.site-logo img {
+  width: 300px;
+  height: 50px;
+}
+
 .image-container {
     width: 50%;
     height: 350px;
@@ -32,7 +37,18 @@ body {
     padding: 50px 30px;
     background-color: green;
     text-align: left;
+}
 
+.caption-container h2, p{
+    text-align: left !important;
+}
+
+.log-container {
+  display: none !important;
+}
+
+.mobile-caption-container {
+  display: none;
 }
 
 .banking-container {
@@ -79,7 +95,11 @@ a {
 }
 
 .account-management-container h4, p{
-    text-align: center;
+    text-align: center !important;
+}
+
+.fraud-paragraph p {
+  text-align: left !important;
 }
 
 .account-managment-img {
@@ -144,6 +164,18 @@ a {
     }
   }
 
+  .fraud-section-mobile {
+    display: none;
+  }
+
+  .td-mobile {
+    display: none;
+  }
+
+  .question-section-mobile {
+    display: none;
+  }
+
   .fraud-section {
     background-color: #f5fff5;
     padding: 10px 5px;
@@ -162,6 +194,14 @@ a {
     border-radius: 0px !important;
     padding: 10px; 
     margin-top: -30px !important;
+  }
+
+  .td-over-container-mobile {
+    display: none;
+  }
+
+  .learn-more-btnn, .fraud-parr {
+    display: none;
   }
 
   .align-items-center {
@@ -466,6 +506,9 @@ a {
     font-weight: 600;
   }
 
+  .house-lending-mobile {
+    display: none;
+  }
   .content-section {
     width: 60%;
     font-size: 14px;
@@ -570,6 +613,11 @@ a {
     padding-left: 50px;
     padding-top: 8px;
   }
+
+  .hamburger {
+    display: none;
+  }
+
   .sub-topbar {
     width: 100%;
     height: 35px;
@@ -658,6 +706,7 @@ a {
 
   .navbar {
     background-color: #fff !important; /* Custom dark green */
+    box-shadow: 2px 2px 2px 2px #33333328;
     padding: 1rem 2rem;
   }
   
@@ -748,6 +797,113 @@ a {
     font-size: 16px;
     color: gray;
     font-weight: 100;
-
   }
+
+  .footer-legal {
+    width: 60%;
+    color: gray;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 12px;
+  }
+
+  .footer-legal p {
+    text-align: left;
+  }
+
+  .footer-disclosures-table {
+    width: 60%; 
+    border-collapse: collapse; 
+    margin: 20px 0;
+    margin: 20px auto;
+  }
+
+  .footer-top {
+    font-size: 25px;
+    color: green;
+    margin-top: 30px;
+  }
+
+  .footer-top a {
+    color: green;
+    font-weight: 700;
+  }
+
+  .funds-withdrawal {
+    border: none;
+    background-color: maroon;
+    color: #fff;
+    font-size: 14px;
+    padding: 10px;
+    width: 40%;
+    margin-left: -20px;
+    border-radius: 10px;
+    font-weight: 600;
+  }
+
+  .withdraw-page {
+    max-width: 500px;
+    margin: 40px auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .withdraw-title {
+    text-align: center;
+    color: #006644;
+    margin-bottom: 24px;
+  }
+  
+  .withdraw-form label {
+    display: block;
+    margin-bottom: 6px;
+    color: #333;
+    font-weight: 500;
+  }
+  
+  .withdraw-form input,
+  .withdraw-form select,
+  .withdraw-form textarea {
+    width: 100%;
+    padding: 10px 12px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+  }
+  
+  .withdraw-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #006644;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .withdraw-btn:hover {
+    background-color: #004d33;
+  }
+  
+  /* Mobile adjustments */
+  @media (max-width: 600px) {
+    .withdraw-page {
+      margin: 20px 10px;
+      padding: 20px;
+    }
+  
+    .withdraw-title {
+      font-size: 22px;
+    }
+  
+    .withdraw-btn {
+      font-size: 15px;
+    }
+  }
+
   

@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style-responsive.css">
   <link rel="stylesheet" href="css/all.min.css"/>
   <link rel="shortcut icon" href="assets/imgs/td-logo.png" type="image/x-icon">
 </head>
@@ -20,21 +21,24 @@
     <span><b>Personal</b>  <a href="#">Small Business</a> <a href="#">Commercial</a> <a href="#">Investing & Wealth</a> <a href="#">About Us</a></span>
   </div>
 
-  <nav class="navbar navbar-expand-lg navbar-dark bg-success">
-    <div class="container">
-      <img src="assets/imgs/tdlogo.png" alt="" width="300px" height="50px">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+  <div class="site-header">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+      <div class="container">
+        <div class="site-logo"><i class="fa-solid fa-bars fa-2x text-dark hamburger"></i><img src="assets/imgs/tdlogo.png" alt=""></div>
+        <div class="log-container"><a href="login.html" class="log-btn"><i class="fa-solid fa-user"></i> <sup><i class="fa-solid fa-lock"></i></sup> Login</a></div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
         <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navMenu">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a class="nav-link" href="#">Products</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Learning</a></li>
-        </ul>
+        </button>
+        <div class="collapse navbar-collapse" id="navMenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#">Products</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Learning</a></li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </nav>
+    </nav>
+  </div>
 
   <!-- Hero -->
   <section class="hero">
@@ -42,10 +46,16 @@
         <div class="image-container">
             <!-- <img src="assets/imgs/home-page.png" alt=""> -->
           </div>
+          <div class="mobile-caption-container">
+            <h2 style="color: #fff">Checking that grows with you. Plus $200.</h2>
+            <p>All-new TD Complete Checking's right for all life stages. 
+                And new customers earn $200 with qualifying activities.</p>
+            <a class="btn btn-light btn-lg" href="#">Get offer</a>
+          </div>
           <div class="caption-container">
-            <h2 style="color: #fff">Checking that grows <br> with you. Plus $200.</h2>
-            <p>All-new TD Complete Checking's right for all <br> life stages. 
-                And new customers earn $200 <br> with qualifying activities.</p>
+            <h2 style="color: #fff">Checking that grows with you. Plus $200.</h2>
+            <p>All-new TD Complete Checking's right for all life stages. 
+                And new customers earn $200 with qualifying activities.</p>
             <a class="btn btn-light btn-lg" href="#">Get offer</a>
           </div>
           <div class="banking-container">
@@ -67,7 +77,7 @@
   <!-- Products -->
   <div class="container py-5 online-container">
     <h3>Online Banking & Financial Services to Meet Your Goals</h3>
-    <br>
+    
     <center><hr width="35%"></center>
     <br>
     <h5>What can we help you find?</h5>
@@ -103,7 +113,7 @@
     <p>Explore unexpectedly human ways to manage your bank accounts 24/7—even when you're on the go. </p>
     <div class="container py-5 account-managment-img">
       <div class="row text-center text-md-start">
-        <div class="col-md-3 info-section">
+        <div class="col-md-3 info-sectionn">
           <img src="assets/imgs/live-customer.jpeg" alt="Live Customer">
           <br><br>
           <div class="info-heading">Live customer service when you need it</div>
@@ -133,13 +143,15 @@
 
   <div class="container-fluid fraud-section">
     <div class="row align-items-center">
-      <div class="col-md-6 px-5 mb-4 mb-md-0">
+      <div class="col-md-6 px-5 mb-4 mb-md-0 fraud-paragraph">
         <h3 class="fraud-title">Protect against fraud</h3>
-        <p>Find out what to do if you suspect fraud, and learn how to keep your accounts and identity more secure.</p>
+        <p class="fraud-par">Find out what to do if you suspect fraud, and learn how to keep your accounts and identity more secure.</p>
         <a class="learn-more" href="#"><button class="learn-more-btn">Learn more</button></a>
       </div>
-      <div class="col-md-6 text-center px-5">
+      <div class="col-md-6 text-center fraud-sec">
         <img src="assets/imgs/onlinemobilesecurityguarantee-en.svg" alt="Fraud Protection" class="fraud-img">
+        <p class="fraud-parr">Find out what to do if you suspect fraud, and learn how to keep your accounts and identity more secure.</p>
+        <a class="learn-more" href="#"><button class="learn-more-btnn">Learn more</button></a>
       </div>
     </div>
   </div>
@@ -170,6 +182,20 @@
     <center><button class="btn btn-learn mt-3 btn-learn-more">Learn more</button></center>
   </div>
 
+  <div class="container py-5 td-over-container-mobile">
+    <h4>Introducing TD Overdraft Relief<sup>1</sup></h4>
+    <p>With TD Overdraft Relief1, we offer you even more flexibility—including no fee if you overdraw your checking account balance by $50 or less.</p>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="overdraft-card">
+          <h5>How TD Overdraft Relief helps</h5>
+          <p>If you overdraw the available balance in your checking account by $50 or less, we won't charge you an overdraft fee.</p>
+        </div>
+      </div>
+    </div>
+    <center><button class="btn btn-learn mt-3 btn-learn-more">Learn more</button></center>
+  </div>
+
   <div class="container-fluid fraud-section">
     <div class="row align-items-center">
       <div class="col-md-6 px-5 mb-4 mb-md-0">
@@ -182,11 +208,34 @@
       </div>
     </div>
   </div>
+  <div class="container-fluid fraud-section-mobile">
+    <div>
+      <div>
+        <h3 class="fraud-title">America's most convenient bank</h3>
+        <img src="assets/imgs/locateabranch-smp-en.svg" alt="Fraud Protection" class="fraud-img">
+      </div>
+      <div>
+        <p>Your local TD Bank is here for you—visit us early, late or on weekends.</p>
+        <a class="learn-more" href="#"><button class="btn-moree">Learn more</button></a>
+      </div>
+    </div>
+  </div>
 
   <div class="container-fluid support-section">
     <h2>TD Phone Support recognized by J.D. Power</h2>  
     <div class="container">
-      <div class="row align-items-center">
+      <div class="row align-items-center td-desktop">
+        <div class="col-md-5 mb-4 mb-md-0 book">
+          <img src="assets/imgs/jd-image-en.png" alt="TD Support Image" class="support-img">
+        </div>
+        <div class="col-md-7 support-content">
+          <h6 class="support-title">You deserve an outstanding customer service experience – we've got that.</h6>
+          <p>TD Bank’s U.S. Retail Bank has been recognized by J.D. Power for providing "An Outstanding Customer Service Experience" for phone support.</p>
+          <p>When you call, you'll talk to one of our dedicated agents committed to providing the highest levels of customer satisfaction. This is just one of the ways we're making everyday banking better.</p>
+          <p><small>J.D. Power 2024 Certified Customer Service Program<sup>SM</sup> recognition is based on successful completion of an evaluation and exceeding a customer satisfaction benchmark through a survey of recent servicing interactions. For more information, visit <a href="https://www.jdpower.com/awards" target="_blank">www.jdpower.com/awards</a>†</small></p>
+        </div>
+      </div>
+      <div class="td-mobile">
         <div class="col-md-5 mb-4 mb-md-0 book">
           <img src="assets/imgs/jd-image-en.png" alt="TD Support Image" class="support-img">
         </div>
@@ -237,6 +286,19 @@
     </div>
   </div>
 </div>
+<div class="container-fluid question-section-mobile">
+  <div style="padding: 20px;">
+    <div>
+      <h3 class="question-title">Have a question? Find answers here</h3>
+      <input type="search" name="search" placeholder="What's your question?">
+      <br><br>
+      <a href="#"><button class="ask-btn">Ask Us</button></a>
+    </div>
+    <div class="col-md-6 text-center">
+      <a class="learn-more" href="#">Popular Questions ></a>
+    </div>
+  </div>
+</div>
 <div class="contact-footer">
   <span class="contact-head">Need to talk to us directly? <a href="#" class="contact-link"> Contact Us ></a> </span>
   
@@ -268,6 +330,14 @@
     <img src="assets/imgs/New_lender.svg" alt="">
     <span>Equal Housing Lender <br><br> Member FDIC. Bank Deposits FDIC Insured</span>
   </div>
+  
+  <center>
+    <div class="house-lending-mobile">
+      <img src="assets/imgs/New_lender.svg" alt="">
+      <span>Equal Housing Lender <br><br> Member FDIC. Bank Deposits FDIC Insured</span>
+    </div>
+  </center>
+  
   <center><hr width="65%"></center>
 
   <div class="content-section">

@@ -1,0 +1,482 @@
+ 
+    /* Mobile view: screens up to 768px wide */
+@media screen and (max-width: 768px) {
+
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f9f9f9;
+  }
+
+  html, body {
+    overflow-x: hidden;
+    width: 100%;
+    overflow-wrap: break-word;
+  }
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+  /* Adjust topbars */
+  .sub-topbar {
+    display: none;
+  }
+  
+  .topbar {
+    font-size: 9px;
+  }
+
+  .hamburger {
+    display: inline;
+  }
+
+  .topbar img {
+    max-width: 100px;
+    margin-bottom: 5px;
+  }
+
+  .sub-topbar span,
+  .sub-topbar a {
+    display: block;
+    margin: 3px 0;
+    font-size: 14px;
+  }
+
+  /* Navbar */
+  nav.navbar {
+    padding: 10px;
+  }
+
+  nav.navbar .container {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  nav.navbar a img {
+    max-width: 160px;
+    height: auto;
+  }
+
+  nav.navbar .navbar-collapse {
+    background-color: #006943; /* Green background */
+    padding: 10px;
+  }
+
+  nav.navbar .nav-link {
+    color: #fff;
+    padding: 8px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+  }
+
+  /* .container {
+    display: flex;
+  } */
+
+  /* Login container section */
+  .login-container-section {
+    padding: 20px 10px;
+  }
+
+  .login-overall-container {
+    display: block; /* stack content */
+  }
+
+  .login-container {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  }
+
+  .login-container h4 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  .login-container input[type="text"],
+  .login-container input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  .login-container input[type="checkbox"] {
+    margin-right: 5px;
+  }
+
+  .btn-login {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+  }
+
+  .options {
+    text-align: center;
+    margin-top: 15px;
+  }
+
+  .options p a {
+    font-size: 14px;
+  }
+
+  .login-content {
+    width: 100%;
+    max-width: 100%;
+    margin-top: 20px;
+  }
+
+  .login-content ul {
+    padding: 0;
+    list-style: none;
+    font-size: 14px;
+  }
+
+  .login-content li {
+    margin: 10px 0;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 8px;
+  }
+
+  .login-content hr {
+    margin: 20px 0;
+  }
+
+  .login-content .li-u {
+    border: none;
+    padding: 0;
+  }
+
+  .footer-disclosures-table {
+    width: 80%; 
+    border-collapse: collapse; 
+    margin: 20px 0;
+    margin: 20px auto;
+  }
+
+  .footer-top {
+    font-size: 25px;
+    color: green;
+    margin-top: 30px;
+  }
+  
+  .footer-legal {
+    width: 80%;
+    color: gray;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 12px;
+  }
+
+  .login-content {
+    /* margin-top: 100px; */
+    padding: 10px;
+    font-size: 20px !important;
+  }
+
+  .login-container-section {
+    background-image: none;
+  }
+
+  .login-overall-container {
+    width: 100%;
+  }
+
+  .content-section {
+    width: 60%;
+    font-size: 8px;
+  }
+  .image-container {
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+    height: 400px !important;
+  }
+
+  .container img {
+    width: 230px;
+    height: 50px;
+  }
+
+  .hero {
+    width: 100%;
+  }
+
+  .hero-container {
+    display: block;
+    width: 120% !important;
+  }
+
+  .caption-container {
+    display: none;
+  }
+
+  .mobile-caption-container {
+    display: block;
+  }
+
+  .mobile-caption-container {
+    width: 100%;
+    height: 280px;
+    padding: 20px;
+    background-color: green;
+    text-align: left;
+  }
+
+  .site-logo {
+    width: 80%;
+    height: 15px;
+  }
+
+  .mobile-caption-container p{
+    text-align: left !important;
+    font-size: 16px !important;
+    width: 90% !important;
+  }
+  .mobile-caption-container h2{
+    text-align: left !important;
+    font-size: 22px !important;
+    width: 90% !important;
+    font-weight: bold;
+  }
+
+  .mobile-caption-container .btn-lg {
+    background-color: transparent !important;
+    color: #fff !important;
+    border-radius: 0px !important;
+    border: 2px solid #fff !important;
+    width: 80% !important;
+}
+
+.log-container {
+  display: inline !important;
+  margin-left: 200px !important;
+}
+
+.log-btn {
+  margin-left: 40px !important;
+  border: none;
+  color: green;
+  padding: 10px;
+}
+
+  .banking-container {
+    display: none;
+    border-bottom: 0px;
+  }
+
+  .banking-container ul hr {
+    display: none;
+  }
+
+  .online-container {
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .online-container h3 {
+    font-size: 24px;
+  }
+
+  .account-managment-container {
+    width: 100%;
+  }
+
+  .account-managment-container h2, p {
+    text-align: center;
+  }
+
+  .account-managment-container .info-section {
+    display: none;
+  }
+  .account-managment-container .info-sectionn .info-heading {
+    color: rgb(34, 34, 34);
+  }
+
+  .fraud-section {
+    width: 100%;
+  }
+
+  .info-sectionn img {
+    width: 300px;
+    height: 150px;
+  }
+ 
+  .fraud-par, .learn-more-btn {
+    display: none;
+  }
+
+  .fraud-section .fraud-title {
+    text-align: center;
+  }
+
+  .fraud-par {
+    text-align: center;
+    font-size: 14px;
+  }
+
+  .learn-more-btnn {
+    width: 400px;
+    background-color: green;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 0px !important;
+    padding: 10px; 
+  }
+
+  .learn-more-btnn {
+    display: block;
+  }
+
+  .td-over-container {
+    display: none;
+  }
+
+  .td-over-container-mobile {
+    display: block;
+  }
+
+  .fraud-parr{
+    display: block;
+  }
+
+  .td-over-container-mobile h4, p {
+    text-align: center;
+  }
+
+  .fraud-sec {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .fraud-section {
+    text-align: center; /* Center text globally inside the section */
+  }
+
+  .fraud-section .row {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .fraud-section .col-md-6 {
+    width: 100%;
+    padding: 0 20px;
+  }
+
+  .fraud-title,
+  .fraud-par,
+  .fraud-parr {
+    text-align: center;
+  }
+
+  .learn-more,
+  .learn-more-btn,
+  .learn-more-btnn {
+    display: inline-block;
+    margin: 10px auto;
+    text-align: center;
+  }
+
+  .fraud-img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .td-over-container-mobile .btn-learn-more {
+    width: 360px;
+    background-color: green;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 0px !important;
+    padding: 10px; 
+  }
+
+  .fraud-section {
+    display: none;
+  }
+  .fraud-section-mobile {
+    display: block;
+  }
+
+  .fraud-section-mobile .btn-moree {
+    width: 360px;
+    background-color: green;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 0px !important;
+    padding: 10px; 
+    border: none;
+    /* margin-left: 80px !important; */
+  }
+
+  .support-content {
+    text-align: left;
+    width: 100%;
+  }
+
+  .td-mobile {
+    display: block;
+  }
+  .td-desktop {
+    display: none;
+  }
+
+  .td-mobile img {
+    width: 500px;
+    height: 250px;
+  }
+
+  .question-section {
+    display: none;
+  }
+
+  .question-section-mobile {
+    display: block;
+  }
+
+  .question-section-mobile input[type=search] {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .question-section-mobile .ask-btn {
+    font-weight: 600px;
+    font-size: 16px;
+    border: none;
+    width: 90%;
+    color: #fff;
+    padding: 10px;
+    background-color: green;
+  }
+
+  .house-lending-mobile img{
+    width: 50px;
+    height: 50px;
+  }
+
+  .house-lending-mobile {
+    width: 100%;
+    color: green;
+    font-weight: 600;
+    display: block;
+    font-size: 14px;
+  }
+
+  .house-lending {
+    display: none;
+  }
+
+}
